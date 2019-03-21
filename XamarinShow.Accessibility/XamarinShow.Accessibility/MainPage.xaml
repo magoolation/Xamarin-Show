@@ -6,9 +6,14 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="iOS version distribution" 
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="Start" />
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <BoxView HorizontalOptions="Start"  BackgroundColor="Red" WidthRequest="360" />
+            <BoxView HorizontalOptions="Start" BackgroundColor="Purple" WidthRequest="160" />
+            <BoxView HorizontalOptions="Start" BackgroundColor="Green" WidthRequest="120" />
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
