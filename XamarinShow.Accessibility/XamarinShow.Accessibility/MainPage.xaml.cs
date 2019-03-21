@@ -7,6 +7,8 @@ namespace XamarinShow.Accessibility
         public MainPage()
         {
             InitializeComponent();
+
+            BindingContext = new MainPageViewModel();
         }
     }
 }
