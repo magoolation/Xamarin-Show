@@ -11,11 +11,11 @@
            VerticalOptions="Start" />
         <StackLayout VerticalOptions="CenterAndExpand">
             <BoxView HorizontalOptions="Start"  BackgroundColor="Red" WidthRequest="360" 
-                     AutomationProperties.IsInAccessibleTree="true" AutomationProperties.Name="{Binding IOS12, StringFormat='{}iOS 12 {0:F2} %'}" />
+                     AutomationProperties.IsInAccessibleTree="true" AutomationProperties.Name="{Binding IOS12, StringFormat='{}iOS 12 {0:F2} %'}" TabIndex="0" />
             <BoxView HorizontalOptions="Start" BackgroundColor="Purple" WidthRequest="160"
-                     AutomationProperties.IsInAccessibleTree="true" AutomationProperties.Name="{Binding IOS11, StringFormat='{}iOS 11 {0:F2} %'}" />
+                     AutomationProperties.IsInAccessibleTree="true" AutomationProperties.Name="{Binding IOS11, StringFormat='{}iOS 11 {0:F2} %'}" TabIndex="2" />
             <BoxView HorizontalOptions="Start" BackgroundColor="Green" WidthRequest="120"
-                     AutomationProperties.IsInAccessibleTree="true" AutomationProperties.Name="{Binding Other, StringFormat='{}Other{0:F2} %'}" />
+                     AutomationProperties.IsInAccessibleTree="true" AutomationProperties.Name="{Binding Other, StringFormat='{}Other{0:F2} %'}" TabIndex="1" />
         </StackLayout>
     </StackLayout>
 </ContentPage>
